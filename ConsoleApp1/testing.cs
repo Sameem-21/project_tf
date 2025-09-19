@@ -14,7 +14,7 @@ namespace ConsoleApp1
 
             // Define the query expression.
             List<int> scoreQuery =
-                  IList(from score in scores //tesy // testing 1
+                  IList(from score in scores //tesy // testing 1 //
                  where score > 96
                  select score);
 
